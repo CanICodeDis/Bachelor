@@ -170,18 +170,18 @@ F 3 "" H 1600 2250 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 Text Label 1750 1500 0    60   ~ 0
-A
-Text Label 3200 1500 0    60   ~ 0
+A_conn
+Text Label 3200 1700 0    60   ~ 0
 B
 Text Label 4700 1500 0    60   ~ 0
 C
 Text Label 1000 2950 0    60   ~ 0
 A
-Text Label 1000 4600 0    60   ~ 0
+Text Label 700  4950 0    60   ~ 0
 B
 Text Label 750  3300 0    60   ~ 0
 A_conn
-Text Label 700  4950 0    60   ~ 0
+Text Label 700  4650 0    60   ~ 0
 B_conn
 $Comp
 L +5V #PWR04
@@ -2409,7 +2409,7 @@ U 1 1 5AFCE00F
 P 12300 900
 F 0 "J1" H 12300 1000 50  0000 C CNN
 F 1 "Conn_01x01" H 12300 800 50  0000 C CNN
-F 2 "" H 12300 900 50  0001 C CNN
+F 2 "kicadBibs:MotorConn" H 12300 900 50  0001 C CNN
 F 3 "" H 12300 900 50  0001 C CNN
 	1    12300 900 
 	1    0    0    -1  
@@ -2420,7 +2420,7 @@ U 1 1 5AFD3E90
 P 12300 1200
 F 0 "J2" H 12300 1300 50  0000 C CNN
 F 1 "Conn_01x01" H 12300 1100 50  0000 C CNN
-F 2 "" H 12300 1200 50  0001 C CNN
+F 2 "kicadBibs:MotorConn" H 12300 1200 50  0001 C CNN
 F 3 "" H 12300 1200 50  0001 C CNN
 	1    12300 1200
 	1    0    0    -1  
@@ -2431,7 +2431,7 @@ U 1 1 5AFD4001
 P 12300 1500
 F 0 "J3" H 12300 1600 50  0000 C CNN
 F 1 "Conn_01x01" H 12300 1400 50  0000 C CNN
-F 2 "" H 12300 1500 50  0001 C CNN
+F 2 "kicadBibs:MotorConn" H 12300 1500 50  0001 C CNN
 F 3 "" H 12300 1500 50  0001 C CNN
 	1    12300 1500
 	1    0    0    -1  
@@ -3176,10 +3176,6 @@ $EndComp
 Wire Notes Line
 	5400 450  5400 5950
 Wire Wire Line
-	1600 1300 1600 1700
-Wire Wire Line
-	3000 1300 3000 1700
-Wire Wire Line
 	4500 1300 4500 1700
 Wire Notes Line
 	5400 2500 450  2500
@@ -3196,10 +3192,6 @@ Connection ~ 3000 1500
 Wire Wire Line
 	4500 1500 4700 1500
 Connection ~ 4500 1500
-Wire Wire Line
-	1000 4600 1000 4650
-Wire Wire Line
-	1000 4650 1450 4650
 Wire Wire Line
 	1450 4750 1350 4750
 Wire Wire Line
@@ -4153,4 +4145,18 @@ Wire Wire Line
 	3100 6900 3450 6900
 Wire Wire Line
 	3200 6600 3450 6600
+Wire Wire Line
+	1600 1500 1600 1700
+Text Label 1700 1300 0    60   ~ 0
+A
+Wire Wire Line
+	1700 1300 1600 1300
+Wire Wire Line
+	3000 1500 3000 1300
+Text Label 3200 1500 0    60   ~ 0
+B_conn
+Wire Wire Line
+	3200 1700 3000 1700
+Wire Wire Line
+	700  4650 1450 4650
 $EndSCHEMATC
