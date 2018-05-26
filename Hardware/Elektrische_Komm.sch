@@ -2665,11 +2665,11 @@ Text Label 17050 14050 0    61   ~ 0
 D-
 Text Label 16900 10100 0    61   ~ 0
 SYSCLK_OUT
-Text Label 17050 12950 0    61   ~ 0
+Text Label 17050 13150 0    61   ~ 0
 LI_A
 Text Label 17050 13050 0    61   ~ 0
 LI_B
-Text Label 17050 13150 0    61   ~ 0
+Text Label 17050 12950 0    61   ~ 0
 LI_C
 Text Label 17300 11150 0    61   ~ 0
 HI_C
@@ -2691,9 +2691,9 @@ Text Label 17050 13850 0    60   ~ 0
 Bemf_B
 Text Label 17050 13950 0    60   ~ 0
 Bemf_C
-Text Label 17450 11450 2    60   ~ 0
-Hochlauf
 Text Label 17450 11550 2    60   ~ 0
+Hochlauf
+Text Label 17450 11450 2    60   ~ 0
 elekKomm
 $Comp
 L Crystal_Small Y1

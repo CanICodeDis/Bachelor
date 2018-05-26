@@ -177,11 +177,11 @@ Text Label 4700 1500 0    60   ~ 0
 C
 Text Label 1000 2950 0    60   ~ 0
 A
-Text Label 1000 4600 0    60   ~ 0
+Text Label 700  4950 0    60   ~ 0
 B
 Text Label 750  3300 0    60   ~ 0
 A_conn
-Text Label 700  4950 0    60   ~ 0
+Text Label 700  4650 0    60   ~ 0
 B_conn
 $Comp
 L +5V #PWR04
@@ -2691,9 +2691,9 @@ Text Label 17050 13850 0    60   ~ 0
 Bemf_B
 Text Label 17050 13950 0    60   ~ 0
 Bemf_C
-Text Label 17450 11450 2    60   ~ 0
-Hochlauf
 Text Label 17450 11550 2    60   ~ 0
+Hochlauf
+Text Label 17450 11450 2    60   ~ 0
 elekKomm
 $Comp
 L Crystal_Small Y1
@@ -3192,10 +3192,6 @@ Connection ~ 3000 1500
 Wire Wire Line
 	4500 1500 4700 1500
 Connection ~ 4500 1500
-Wire Wire Line
-	1000 4600 1000 4650
-Wire Wire Line
-	1000 4650 1450 4650
 Wire Wire Line
 	1450 4750 1350 4750
 Wire Wire Line
@@ -4161,4 +4157,6 @@ Text Label 3200 1500 0    60   ~ 0
 B_conn
 Wire Wire Line
 	3200 1700 3000 1700
+Wire Wire Line
+	700  4650 1450 4650
 $EndSCHEMATC
