@@ -1716,6 +1716,11 @@ D Transformer, split primary, dual secondary
 K transformer coil magnet
 $ENDCMP
 #
+$CMP USBLC6-2SC6Y
+D ESD-Protection for USB
+K ESD, Surpressor
+$ENDCMP
+#
 $CMP Varistor
 D Voltage dependent resistor
 K vdr resistance

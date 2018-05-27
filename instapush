@@ -1,10 +1,8 @@
 #!/bin/bash
 
 USERNAME=CanICodeDis
-echo "Gib die Commit-message ein:"
 read -p 'Message: ' commitMsg
 git add *
-git commit -a -m "$commitMsg"
-echo "Wohin pushen?"
+git commit -a -m "$(cowsay -f dragon $commitMsg)"
 read -p 'Ziel: ' zielRepo
-git push -u $zielRepo
+git push -u "$zielRepo"
