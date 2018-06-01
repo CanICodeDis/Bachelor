@@ -2104,8 +2104,6 @@ Text Label 17050 13650 0    61   ~ 0
 HI_B
 Text Label 17050 13550 0    61   ~ 0
 HI_A
-Text Label 16900 9700 0    60   ~ 0
-Curr_mcu_B
 Text Label 17050 13350 0    61   ~ 0
 DAC1
 Text Label 17050 13450 0    61   ~ 0
@@ -3225,8 +3223,6 @@ Wire Wire Line
 Connection ~ 7750 14750
 Wire Wire Line
 	16600 9400 16900 9400
-Wire Wire Line
-	16900 9700 16600 9700
 Wire Wire Line
 	16900 9600 16600 9600
 Wire Wire Line
