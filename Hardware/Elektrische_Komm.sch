@@ -592,17 +592,6 @@ F 3 "" H 4650 4000 50  0001 C CNN
 $EndComp
 Text Label 4500 2750 0    60   ~ 0
 Vin
-$Comp
-L D D2
-U 1 1 5AF3A4A4
-P 4900 2750
-F 0 "D2" H 4900 2850 50  0000 C CNN
-F 1 "D" H 4900 2650 50  0000 C CNN
-F 2 "" H 4900 2750 50  0001 C CNN
-F 3 "" H 4900 2750 50  0001 C CNN
-	1    4900 2750
-	-1   0    0    1   
-$EndComp
 Text Label 5150 2750 0    60   ~ 0
 VCC
 $Comp
@@ -2585,9 +2574,7 @@ Wire Wire Line
 	4500 3350 4500 3600
 Connection ~ 4650 3600
 Wire Wire Line
-	5150 2750 5050 2750
-Wire Wire Line
-	4500 2750 4750 2750
+	4500 2750 5150 2750
 Wire Wire Line
 	8650 1150 9600 1150
 Wire Wire Line
@@ -3452,27 +3439,11 @@ Text Label 4500 4900 0    60   ~ 0
 Vin
 Wire Wire Line
 	4500 4900 4750 4900
-$Comp
-L C C9
-U 1 1 5B16F6A7
-P 4900 3800
-F 0 "C9" H 4925 3900 50  0000 L CNN
-F 1 "C" H 4925 3700 50  0000 L CNN
-F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm" H 4938 3650 50  0001 C CNN
-F 3 "" H 4900 3800 50  0001 C CNN
-	1    4900 3800
-	1    0    0    -1  
-$EndComp
 Wire Wire Line
 	5100 3650 5100 3600
 Connection ~ 5100 3600
 Wire Wire Line
 	5100 3950 5100 4000
-Wire Wire Line
-	4900 3650 4900 3600
-Connection ~ 4900 3600
-Wire Wire Line
-	4900 3950 4650 3950
 Wire Wire Line
 	4650 3950 4650 4000
 $EndSCHEMATC
