@@ -3656,4 +3656,20 @@ Wire Wire Line
 Wire Wire Line
 	3700 2150 4500 2150
 Connection ~ 4500 2150
+$Comp
+L C C?
+U 1 1 5B25341C
+P 4900 3800
+F 0 "C?" H 4925 3900 50  0000 L CNN
+F 1 "C" H 4925 3700 50  0000 L CNN
+F 2 "Capacitors_THT:CP_Radial_D10.0mm_P5.00mm" H 4938 3650 50  0001 C CNN
+F 3 "" H 4900 3800 50  0001 C CNN
+	1    4900 3800
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	4900 3650 4900 3600
+Connection ~ 4900 3600
+Wire Wire Line
+	4900 3950 4650 3950
 $EndSCHEMATC
