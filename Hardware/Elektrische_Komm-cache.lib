@@ -438,6 +438,26 @@ X 2 2 200 0 100 L 50 50 0 1 P
 ENDDRAW
 ENDDEF
 #
+# Screw_Terminal_01x01
+#
+DEF Screw_Terminal_01x01 J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Screw_Terminal_01x01" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*Terminal*Block*:*
+ TerminalBlock*
+$ENDFPLIST
+DRAW
+C 0 0 25 1 1 6 N
+S -50 50 50 -50 1 1 10 f
+P 2 1 1 6 -21 13 13 -20 N
+P 2 1 1 6 -14 20 20 -13 N
+X Pin_1 1 -200 0 150 R 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
 # TEST
 #
 DEF TEST TP 0 40 N N 1 F N
