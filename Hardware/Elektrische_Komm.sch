@@ -2700,7 +2700,7 @@ Wire Wire Line
 Wire Notes Line
 	5400 2500 450  2500
 Wire Wire Line
-	1600 2250 1600 2100
+	1600 2100 1600 2250
 Wire Wire Line
 	3000 2100 3000 2250
 Wire Wire Line
@@ -2777,7 +2777,7 @@ Wire Wire Line
 	5750 2200 5600 2200
 Connection ~ 5600 2200
 Wire Wire Line
-	4500 2250 4500 2100
+	4500 2100 4500 2250
 Wire Wire Line
 	7300 2200 8050 2200
 Connection ~ 7700 2200
@@ -3209,9 +3209,7 @@ Wire Wire Line
 Wire Wire Line
 	11700 1500 12100 1500
 Wire Notes Line
-	11400 1850 12800 1850
-Wire Notes Line
-	12800 1850 12800 450 
+	11400 1850 13150 1850
 Wire Wire Line
 	800  700  4500 700 
 Wire Wire Line
@@ -3697,17 +3695,6 @@ F 3 "" H 17500 6350 50  0001 C CNN
 	1    0    0    -1  
 $EndComp
 $Comp
-L Screw_Terminal_01x01 J11
-U 1 1 5B2794FE
-P 17500 6700
-F 0 "J11" H 17500 6800 50  0000 C CNN
-F 1 "Screw_Terminal_01x01" H 17500 6600 50  0000 C CNN
-F 2 "Mounting_Holes:MountingHole_3.2mm_M3_DIN965" H 17500 6700 50  0001 C CNN
-F 3 "" H 17500 6700 50  0001 C CNN
-	1    17500 6700
-	1    0    0    -1  
-$EndComp
-$Comp
 L Screw_Terminal_01x01 J10
 U 1 1 5B2796D4
 P 16550 6700
@@ -3720,4 +3707,39 @@ F 3 "" H 16550 6700 50  0001 C CNN
 $EndComp
 Text Notes 16250 7100 0    60   ~ 0
 Befestigungslöcher
+$Comp
+L Conn_01x01 J12
+U 1 1 5B2B78E1
+P 12800 900
+F 0 "J12" H 12800 1000 50  0000 C CNN
+F 1 "Conn_01x01" H 12800 800 50  0000 C CNN
+F 2 "kicadBibs:Führungsloch" H 12800 900 50  0001 C CNN
+F 3 "" H 12800 900 50  0001 C CNN
+	1    12800 900 
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J13
+U 1 1 5B2B7AC7
+P 12800 1200
+F 0 "J13" H 12800 1300 50  0000 C CNN
+F 1 "Conn_01x01" H 12800 1100 50  0000 C CNN
+F 2 "kicadBibs:Führungsloch" H 12800 1200 50  0001 C CNN
+F 3 "" H 12800 1200 50  0001 C CNN
+	1    12800 1200
+	1    0    0    -1  
+$EndComp
+$Comp
+L Conn_01x01 J14
+U 1 1 5B2B7CB2
+P 12800 1500
+F 0 "J14" H 12800 1600 50  0000 C CNN
+F 1 "Conn_01x01" H 12800 1400 50  0000 C CNN
+F 2 "kicadBibs:Führungsloch" H 12800 1500 50  0001 C CNN
+F 3 "" H 12800 1500 50  0001 C CNN
+	1    12800 1500
+	1    0    0    -1  
+$EndComp
+Wire Notes Line
+	13150 1850 13150 450 
 $EndSCHEMATC
