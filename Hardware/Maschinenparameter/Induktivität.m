@@ -32,4 +32,4 @@ Z = Vs./Is;
 % Z = R + jwL
 wL = imag(Z);
 L= wL ./ omega
-%tau_el = twoL/ twoRs
+tau_el = twoL/ twoRs
