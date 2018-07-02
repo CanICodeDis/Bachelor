@@ -3441,8 +3441,6 @@ Wire Wire Line
 Wire Wire Line
 	6600 14400 5850 14400
 Connection ~ 5850 14400
-Wire Notes Line
-	6700 13050 6700 16100
 Wire Wire Line
 	900  6550 1600 6550
 Wire Wire Line
@@ -3686,7 +3684,7 @@ F 3 "" H 16550 6700 50  0001 C CNN
 	1    16550 6700
 	1    0    0    -1  
 $EndComp
-Text Notes 16250 7100 0    60   ~ 0
+Text Notes 16250 7100 0    118  ~ 0
 Befestigungslöcher
 $Comp
 L Conn_01x01 J12
@@ -3750,4 +3748,80 @@ Wire Wire Line
 Connection ~ 9200 5200
 Text Notes 4550 5850 0    60   ~ 0
 Laborklemmen
+$Comp
+L TEST TP26
+U 1 1 5B338CBE
+P 3600 14950
+F 0 "TP26" H 3600 15250 50  0000 C BNN
+F 1 "TEST" H 3600 15200 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x01_Pitch1.00mm" H 3600 14950 50  0001 C CNN
+F 3 "" H 3600 14950 50  0001 C CNN
+	1    3600 14950
+	0    -1   -1   0   
+$EndComp
+Text Label 3600 14950 0    60   ~ 0
+Meas_out
+$Comp
+L R R14
+U 1 1 5B34FC72
+P 7200 14050
+F 0 "R14" V 7280 14050 50  0000 C CNN
+F 1 "1k" V 7200 14050 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 7130 14050 50  0001 C CNN
+F 3 "" H 7200 14050 50  0001 C CNN
+	1    7200 14050
+	1    0    0    -1  
+$EndComp
+$Comp
+L +3.3V #PWR078
+U 1 1 5B34FC78
+P 7200 13750
+F 0 "#PWR078" H 7200 13600 50  0001 C CNN
+F 1 "+3.3V" H 7200 13890 50  0000 C CNN
+F 2 "" H 7200 13750 50  0001 C CNN
+F 3 "" H 7200 13750 50  0001 C CNN
+	1    7200 13750
+	1    0    0    -1  
+$EndComp
+$Comp
+L SW_Push SW3
+U 1 1 5B34FC7E
+P 7200 14550
+F 0 "SW3" H 7250 14650 50  0000 L CNN
+F 1 "SW_Push" H 7200 14490 50  0000 C CNN
+F 2 "kicadBibs:Switch" H 7200 14750 50  0001 C CNN
+F 3 "" H 7200 14750 50  0001 C CNN
+	1    7200 14550
+	0    1    1    0   
+$EndComp
+$Comp
+L GNDREF #PWR079
+U 1 1 5B34FC84
+P 7200 14950
+F 0 "#PWR079" H 7200 14700 50  0001 C CNN
+F 1 "GNDREF" H 7200 14800 50  0000 C CNN
+F 2 "" H 7200 14950 50  0001 C CNN
+F 3 "" H 7200 14950 50  0001 C CNN
+	1    7200 14950
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	7200 13750 7200 13900
+Wire Wire Line
+	7200 14950 7200 14750
+Wire Wire Line
+	7200 14200 7200 14350
+Wire Wire Line
+	7450 14250 7200 14250
+Connection ~ 7200 14250
+Text Label 16800 10300 0    60   ~ 0
+StopButton
+Wire Wire Line
+	16800 10300 16600 10300
+Text Label 7450 14250 0    60   ~ 0
+StopButton
+Wire Notes Line
+	8000 13050 8000 16100
+Text Notes 6200 15900 0    118  ~ 0
+Manueller Eingriff
 $EndSCHEMATC
